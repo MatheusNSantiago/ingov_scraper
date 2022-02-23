@@ -1,0 +1,2 @@
+selenium==3.8.0 # versão mais nova que funfa nesse esquema
+python-dotenv

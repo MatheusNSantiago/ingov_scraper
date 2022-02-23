@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  lambda:
+    build: . # docker build .
+    environment:
+      # são as enviroment variables. Lembra de botar elas no lambda
+      - PYTHONPATH=/var/task/src:/var/task/lib
+      - PATH=/var/task/bin
+    volumes:
+      # sincroniza a pasta src local<->container
+      - ./src/:/var/task/src/

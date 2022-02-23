@@ -1,0 +1,5 @@
+build.zip
+chrome_binaries_layer.zip
+.venv
+bin/chromedriver
+bin/headless-chromium
